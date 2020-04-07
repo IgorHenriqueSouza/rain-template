@@ -1,0 +1,78 @@
+@import './reset.css';
+
+body{
+    background: #F4F4F9;
+}
+
+.houder{
+    padding: 2px 0px 2px;
+    display: flex;
+    text-decoration: none;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.houderc{
+    list-style: none;
+    top: 60px;
+    left: 641px;
+    /* width: 102px; */
+    height: 35px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0px;
+    color:#707070;
+    opacity: 1;
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 1em;
+    
+
+}
+.today{
+    top: 443px;
+    left: 118px;
+    width: 643px;
+    height: 96px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #140202;
+    opacity: 1;   
+}
+
+main section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+main section .notice {
+    width: 560px;
+    height: 200px;
+    padding-left: 5em;
+    line-height: 220%;
+}
+main section .notice h1 {
+    font-size: 40px;
+    letter-spacing: 0px;
+    opacity: 1;
+    color: #140202;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+main section .notice h3 {
+    color: #707070;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+main section .notice p {
+    color: #707070;
+    font-size: 23px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+main section .rain img {
+    max-width: 90%;
+    width: 50em;
+}
